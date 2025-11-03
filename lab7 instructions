@@ -1,0 +1,17 @@
+Name: Hayden Le
+Date: 2/18/25
+Title: Lab 7
+
+1. log in the same way as lab 6
+2. cd /usr/src/kernel
+3. go into file proc.c and open in text editor
+4. go to function pick_proc and edit the for loop. add 
+int random; //outside the for loop
+
+// after the if inside the for
+random = rand() % 100;
+if (random < 20)
+	continue;
+
+5. save and go to /usr/src in VM and make world
+6. reboot to see it takes substantially longer than before

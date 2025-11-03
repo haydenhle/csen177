@@ -1,0 +1,21 @@
+Name: Hayden Le
+Date: 2/11/25
+Title: Lab 6
+
+1. run oracle virtualbox
+2. select expert mode and open settings of tools
+3. go to network -> host only network -> create network called vboxnet()
+4. edit properties -> DHCP server -> enable server -> apply
+5. go back to virtual box and go to file -> import appliance
+6. set source to local file system and file to "/local/Vbox/minix3-1-7.ova"
+7. expand settings and set MAC Address Policy -> Generate new MAC address for all network adapters -> finish
+8. start VM and press 2 to go to custom launch
+9. type "root" into login
+10. type "passwd" and enter a password
+11. type ifconfig to get ip address for later
+12. type "tcpd ftp in.ftpd &"
+13. go to file directory of host pc and go to "other locations" 
+14. connect to server with "ftp://<IP from above>"
+15. edit files with emacs
+16. go back to VM and cd /usr/src to be able to run make world to update changes
+17. use commands "shutdown" then "exit" and then press 2 to go to custom
