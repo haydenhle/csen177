@@ -1,0 +1,1 @@
+Step 1: threads execute in order and main thread always finishes at the end

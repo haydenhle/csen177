@@ -1,0 +1,5 @@
+Step 6 observations:
+- 10 threads
+- 8 hello from threads print before 4 threads return
+- multiple threads may print out the same values of i because the programs runs altogether and doesn't wait 
+  for some threads to terminate

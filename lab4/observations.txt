@@ -1,0 +1,11 @@
+Step 1:
+- doesn't run the same every time
+- some threads run out of order
+- 1 Hello from thread... is returned later and is a repeat from above
+- results more similar if other demanding task is active
+- go() var is per thread
+- variables stored in stack of thread control block 
+- main() variable i is shared
+
+Step 2:
+- main thread can finish before other threads do

@@ -1,0 +1,5 @@
+Step 3: when running ./lab2 there was a seg fault.
+Step 4: 
+	3000: child and parent ran 99 times. sometimes would run twice in a row for child and parent
+	500: didn't run twice in a row for any process
+	5000: similar to 3000 where both child and parent could run twice in a row
